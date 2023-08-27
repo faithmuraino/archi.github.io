@@ -1,0 +1,300 @@
+body{
+    font-family: "Goudy Old Style", serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color:#483acd
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: #61aa7f;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+
+header #logo{
+    padding: 0 7px;
+    
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+    list-style: none;
+    text-align: right;
+}
+
+.navbar ul li{
+    display:inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 2px;
+}
+
+.navbar ul li:hover{
+    background: linear-gradient(45deg, #4c76a0, #483acd);
+    border-radius: 2px;
+}
+
+.dropdown{
+    display:none;
+}
+
+.navbar ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    background: linear-gradient(45deg,#483acd, #61aa7f);
+    margin-top: 3px;
+    margin-left: -3px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.navbar ul li .dropdown li{
+    line-height: 1;
+    width: 170px;
+    padding:5px;
+    text-align: left;
+    margin-left: 0%;
+}
+
+.navbar ul li:hover .dropdown li{
+    width: 170px;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    
+}
+
+
+.navbar ul li:hover .dropdown li:last-child{
+    border-bottom: none;
+    
+}
+
+.navbar ul li .dropdown li a{
+    padding:10px 16px;
+}
+
+.navbar ul li .dropdown li:hover{
+   background-color:#4c76a0 !important;
+   opacity: 10%;
+}
+
+.home{
+    background-image: url("home.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-position: bottom center;
+
+}
+
+.home .content{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin: 0 auto;
+    top: 300px;
+    width: 400px;
+    border: 1px solid white;
+    }
+
+.getstartedbtn{
+    color: white;
+    background: #61aa7f;
+    border-radius: 3px; 
+    align-items: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.about{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+  }
+
+  .about .abouttxt{
+    text-align: left;
+    align-content: center;
+    margin-top: 100px;
+  }
+
+  .about .abouttxt p{
+    font-weight: 300;
+    font-size: 30px;
+  }
+
+  .about .abouttxt h1{
+    font-weight: 900;
+    font-size: 50px;
+  }
+
+  .about .aboutimg{
+    padding-left: 150px;
+  }
+
+  .about .aboutimg img{
+    border-radius: 10px;
+    height: 192px;
+    width: 150px;
+  }
+
+  .about .aboutimg img:hover{
+    transform: scale(1.1);
+  }
+
+.abouttxt, .aboutimg {
+    display: inline-block;
+    width: 50%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+  
+
+
+.services{
+    position: relative;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.services .description{
+    margin: 20px;
+}
+.services h2, .services h3{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.services .box h3{
+    font-size: 30px;
+}
+
+.services .box{
+    display: inline-block;
+    top: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+    border-radius: 15px;
+    margin: 0;
+    padding: 30px;
+    box-shadow: 0px 5px 40px 0px rgba(37, 37, 37, 0.1);
+    text-align:center;
+    box-sizing: border-box;
+    inline-size: 400px;
+    margin: 10px;
+    
+    justify-content: center;
+}
+
+.services .box:hover {
+    box-shadow: 0 2px 29px 0 rgba(37, 37, 37, 0.1);
+  }
+
+  .service div .text{
+    position: absolute;
+    flex-wrap: wrap;
+    inline-size: 150px;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+
+  .network{
+    justify-content: right;
+    align-items: right;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    
+  }
+
+  .network h2{
+    text-align: right;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  .network .info{
+    display:flex;
+  }
+
+  .network .img{
+    float: right;
+    height: 173px;
+    width: 300px;
+    flex-basis: 40%;
+    
+  }
+
+  .network  .txt{
+    float:rigth;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    padding-left: 20px;
+    text-align: right;
+  }
+
+  .footer {
+    background: linear-gradient(45deg,#483acd, #61aa7f);
+    color: white;
+    padding: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follow-us a img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    margin-bottom: 10px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
