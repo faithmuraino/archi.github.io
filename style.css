@@ -251,40 +251,6 @@ header #logo{
     text-align: right;
   }
 
-
-/* Media Query for Mobile Devices */
-@media (max-width: 767px) {
-    .network {
-      justify-content: center;
-      align-items: center;
-      margin: 50px 0;
-      text-align: center;
-    }
-  .network h2 {
-      text-align: center;
-      font-size: 24px;
-    }
-  
-    .network .info {
-      display: block;
-    }
-  
-    .network .img {
-      float: none;
-      height: auto;
-      width: 100%;
-      flex-basis: auto;
-      margin: 0 auto 20px;
-    }
-  
-    .network .txt {
-      float: none;
-      margin: 0 auto;
-      padding: 0;
-      text-align: center;
-    }
-  }
-
   .footer {
     background: linear-gradient(45deg,#483acd, #61aa7f);
     color: white;
